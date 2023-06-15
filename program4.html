@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Functions Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+    <script>
+        // Problem 1: Find the position of the leftmost vowel in a string
+        function findLeftmostVowelPosition(str) {
+            var vowels = ['a', 'e', 'i', 'o', 'u'];
+            for (var i = 0; i < str.length; i++) {
+                if (vowels.includes(str[i].toLowerCase())) {
+                    return i + 1;
+                }
+            }
+            return -1; // Return -1 if no vowel is found
+        }
+
+        // Problem 2: Reverse the digits of a number
+        function reverseNumberDigits(number) {
+            var reversedString = number.toString().split('').reverse().join('');
+            return parseInt(reversedString);
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Functions Example</h1>
+
+    <h2>Problem 1: Find the Position of the Leftmost Vowel</h2>
+    <p>The leftmost vowel position in "Hello World" is: <span id="vowelPositionResult"></span></p>
+
+    <h2>Problem 2: Reverse the Digits of a Number</h2>
+    <p>The number 12345 with its digits reversed is: <span id="reversedNumberResult"></span></p>
+
+    <script>
+        // Problem 1: Find the position of the leftmost vowel
+        var vowelPositionResultElement = document.getElementById('vowelPositionResult');
+        vowelPositionResultElement.textContent = findLeftmostVowelPosition('Hello World');
+
+        // Problem 2: Reverse the digits of a number
+        var reversedNumberResultElement = document.getElementById('reversedNumberResult');
+        reversedNumberResultElement.textContent = reverseNumberDigits(12345);
+    </script>
+</body>
+</html>
