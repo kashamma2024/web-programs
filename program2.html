@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squares and Cubes Calculator</title>
+    <style>
+        table {
+            width: 300px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Squares and Cubes Calculator</h2>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Square</th>
+            <th>Cube</th>
+        </tr>
+        <!-- Use a loop to calculate and display the values -->
+        <!-- from 0 to 10 -->
+        <!-- Note: Inline JavaScript is used for simplicity, but -->
+        <!-- it's generally better to separate HTML and JavaScript code -->
+        <!-- for maintainability purposes -->
+        <!-- If you prefer separate files, you can move the script to an external JavaScript file -->
+        <script>
+            for (var i = 0; i <= 10; i++) {
+                document.write('<tr>');
+                document.write('<td>' + i + '</td>');
+                document.write('<td>' + (i * i) + '</td>');
+                document.write('<td>' + (i * i * i) + '</td>');
+                document.write('</tr>');
+            }
+        </script>
+    </table>
+</body>
+</html>
