@@ -13,4 +13,9 @@ program3 output
 ![Screenshot (42)](https://github.com/kashamma2024/web-programs/assets/136564023/2a668595-53c3-4062-905b-d49374f94ec9)
 
 
+program4 output
+![Screenshot (43)](https://github.com/kashamma2024/web-programs/assets/136564023/b7b8d612-80bd-4b37-9d32-40b7ce5db690)
+
+
+
 
