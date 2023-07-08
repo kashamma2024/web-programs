@@ -20,4 +20,6 @@ program4 output
 program5 output
 ![Screenshot p5](https://github.com/kashamma2024/web-programs/assets/136564023/9b673d3b-5140-48bd-a73c-94cc16c51e9a)
 
+program6 output
+![Screenshot (48)](https://github.com/kashamma2024/web-programs/assets/136564023/d1546b9a-77c8-4c30-99d6-de587db020a7)
 
