@@ -25,3 +25,6 @@ program6 output
 
 program7 output
 ![Screenshot (50)](https://github.com/kashamma2024/web-programs/assets/136564023/350dc647-60ce-4827-ba74-337a4230ff89)
+
+program8 output
+![short8](https://github.com/kashamma2024/web-programs/assets/136564023/c11f153e-edb1-4106-9c94-010fec19d400)
